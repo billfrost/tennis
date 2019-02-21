@@ -20,4 +20,4 @@ npm run play
 
 ## Notes
 
-Sample code shows two different usages of calling match.play, one by winners name, the other by player number.
+Sample code shows two different usages of calling match.play, one by player name, the other by player number.
