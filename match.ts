@@ -17,7 +17,7 @@ export class Match {
             if (this.games[this.games.length - 1].awardPoint(pointWinner)) {
                 this.gamesWon[pointWinner]++;
                 console.log(`Won by ${this.players[pointWinner]}`);
-                if (this.gamesWon[pointWinner] - this.gamesWon[opponent] > 1 || this.games[this.games.length - 1] instanceof Tiebreaker) {
+                if (this.gamesWon[pointWinner] > 5 && this.gamesWon[pointWinner] - this.gamesWon[opponent] > 1 || this.games[this.games.length - 1] instanceof Tiebreaker) {
                     return gameOver.next(pointWinner);
                 }
                 if (this.gamesWon[0] == 6 && this.gamesWon[1] == 6) {
