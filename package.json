@@ -1,0 +1,24 @@
+{
+  "name": "tennis",
+  "version": "1.0.0",
+  "description": "Tennis match scoring module",
+  "main": "tennis.js",
+  "scripts": {
+    "build": "tsc",
+    "play": "node dist/tennis.js"
+  },
+  "keywords": [
+    "tennis",
+    "match",
+    "score"
+  ],
+  "author": "Bill Frost",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.4.0",
+    "rxjs-compat": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.4"
+  }
+}
